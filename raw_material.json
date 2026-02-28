@@ -1,0 +1,1042 @@
+{
+  "production_recipes": {
+    "refining_unit": [
+      {
+        "output": "ferrium",
+        "materials": [
+          { "item": "ferrium ore", "quantity": 1 }
+        ],
+        "time_s": 2,
+        "yield": 1
+      },
+      {
+        "output": "amethyst fibre",
+        "materials": [
+          { "item": "amethyst", "quantity": 1 }
+        ],
+        "time_s": 2,
+        "yield": 1
+      },
+      {
+        "output": "origocrust",
+        "materials": [
+          { "item": "originium ore", "quantity": 1 }
+        ],
+        "time_s": 2,
+        "yield": 1
+      },
+      {
+        "output": "packed origocrust",
+        "materials": [
+          { "item": "dense origocrust powder", "quantity": 1 }
+        ],
+        "time_s": 2,
+        "yield": 1
+      },
+      {
+        "output": "steel",
+        "materials": [
+          { "item": "dense ferrium powder", "quantity": 1 }
+        ],
+        "time_s": 2,
+        "yield": 1
+      },
+      {
+        "output": "cryston fibre",
+        "materials": [
+          { "item": "cryston powder", "quantity": 1 }
+        ],
+        "time_s": 2,
+        "yield": 1
+      },
+      {
+        "output": "stabilized carbon",
+        "materials": [
+          { "item": "dense carbon powder", "quantity": 1 }
+        ],
+        "time_s": 2,
+        "yield": 1
+      },
+      {
+        "output": "dense origocrust powder",
+        "materials": [
+          { "item": "dense originum powder", "quantity": 1 }
+        ],
+        "time_s": 2,
+        "yield": 1
+      },
+      {
+        "output": "carbon",
+        "note": "Tier 1 Recipe",
+        "materials": [
+          {
+            "group": "tier_1_plant",
+            "options": ["buckflower", "citrome", "aketine","sandleaf"],
+            "quantity": 1
+          }
+        ],
+        "time_s": 2,
+        "yield": 1
+      },
+      {
+        "output": "carbon",
+        "note": "Tier 2 Recipe",
+        "materials": [
+          {
+            "group": "tier_2_plant",
+            "options": ["jincao", "yanzhen"],
+            "quantity": 1
+          }
+        ],
+        "time_s": 2,
+        "yield": 2
+      },
+      {
+        "output": "dense carbon powder",
+        "materials": [
+          {
+            "group": "tier_2_refined_plant_powder",
+            "options": ["ground buckflower powder", "ground citrome powder"],
+            "quantity": 1
+          }
+        ],
+        "time_s": 2,
+        "yield": 1
+      }
+    ],
+    "shredding_unit": [
+        {
+            "output": "ferrium powder",
+            "materials": [
+                { "item": "ferrium", "quantity": 1 }
+            ],
+            "time_s": 2,
+            "yield": 1
+        },
+        {
+            "output": "amethyst powder",
+            "materials": [
+                { "item": "amethyst fibre", "quantity": 1 }
+            ],
+            "time_s": 2,
+            "yield": 1
+        },
+        {
+            "output": "originium powder",
+            "materials": [
+                { "item": "originium ore", "quantity": 1 }
+            ],
+            "time_s": 2,
+            "yield": 1
+        },
+        {
+            "output": "origocrust powder",
+            "materials": [
+                { "item": "origocrust", "quantity": 1 }
+            ],
+            "time_s": 2,
+            "yield": 1
+        },
+        {
+            "output": "buckflower powder",
+            "materials": [
+                { "item": "buckflower", "quantity": 1 }
+            ],
+            "time_s": 2,
+            "yield": 2
+        },
+        {
+            "output": "citrome powder",
+            "materials": [
+                { "item": "citrome", "quantity": 1 }
+            ],
+            "time_s": 2,
+            "yield": 2
+        },
+        {
+            "output": "aketine powder",
+            "materials": [
+                { "item": "aketine", "quantity": 1 }
+            ],
+            "time_s": 2,
+            "yield": 2
+        },
+        {
+            "output": "jincao powder",
+            "materials": [
+                { "item": "jincao", "quantity": 1 }
+            ],
+            "time_s": 2,
+            "yield": 2
+        },
+        {
+            "output": "yanzhen powder",
+            "materials": [
+                { "item": "yanzhen", "quantity": 1 }
+            ],
+            "time_s": 2,
+            "yield": 2
+        },
+        {
+            "output": "sandleaf powder",
+            "materials": [
+                { "item": "sandleaf", "quantity": 1 }
+            ],
+            "time_s": 2,
+            "yield": 3
+        },
+        {
+            "output": "carbon powder",
+            "materials": [
+                { "item": "carbon carbon", "quantity": 1 }
+            ],
+            "time_s": 2,
+            "yield": 2
+        }
+    ],
+    "fitting_unit": [
+        {
+            "output": "ferrium part",
+            "materials": [
+                { "item": "ferrium", "quantity": 1 }
+            ],
+            "time_s": 2,
+            "yield": 1
+        },
+        {
+            "output": "steel part",
+            "materials": [
+                { "item": "steel", "quantity": 1 }
+            ],
+            "time_s": 2,
+            "yield": 1
+        },
+        {
+            "output": "amethyst part",
+            "materials": [
+                { "item": "amethyst fibre", "quantity": 1 }
+            ],
+            "time_s": 2,
+            "yield": 1
+        },
+        {
+            "output": "cryston part",
+            "materials": [
+                { "item": "cryston fibre", "quantity": 1 }
+            ],
+            "time_s": 2,
+            "yield": 1
+        }
+    ],
+    "molding_unit": [
+        {
+            "output": "ferrium bottle",
+            "materials": [
+                { "item": "ferrium", "quantity": 2 }
+            ],
+            "time_s": 2,
+            "yield": 1
+        },
+        {
+            "output": "steel bottle",
+            "materials": [
+                { "item": "steel", "quantity": 2 }
+            ],
+            "time_s": 2,
+            "yield": 1
+        },
+        {
+            "output": "amethyst bottle",
+            "materials": [
+                { "item": "amethyst fibre", "quantity": 2 }
+            ],
+            "time_s": 2,
+            "yield": 1
+        },
+        {
+            "output": "cryston bottle",
+            "materials": [
+                { "item": "cryston fibre", "quantity": 2 }
+            ],
+            "time_s": 2,
+            "yield": 1
+        }
+    ],
+    "seed_picking_unit": [
+        {
+            "output": "buckflower seed",
+            "materials": [
+                { "item": "buckflower", "quantity": 1 }
+            ],
+            "time_s": 2,
+            "yield": 2
+        },
+        {
+            "output": "citrome seed",
+            "materials": [
+                { "item": "citrome", "quantity": 1 }
+            ],
+            "time_s": 2,
+            "yield": 2
+        },
+        {
+            "output": "aketine seed",
+            "materials": [
+                { "item": "aketine", "quantity": 1 }
+            ],
+            "time_s": 2,
+            "yield": 2
+        },
+        {
+            "output": "jincao seed",
+            "materials": [
+                { "item": "jincao", "quantity": 1 }
+            ],
+            "time_s": 2,
+            "yield": 2
+        },
+        {
+            "output": "yanzhen seed",
+            "materials": [
+                { "item": "yanzhen", "quantity": 1 }
+            ],
+            "time_s": 2,
+            "yield": 2
+        },
+        {
+            "output": "sandleaf seed",
+            "materials": [
+                { "item": "sandleaf", "quantity": 1 }
+            ],
+            "time_s": 2,
+            "yield": 2
+        },
+        {
+            "output": "reed rye seed",
+            "materials": [
+                { "item": "reed rye", "quantity": 1 }
+            ],
+            "time_s": 2,
+            "yield": 2
+        },
+        {
+            "output": "tartpepper seed",
+            "materials": [
+                { "item": "tartpepper", "quantity": 1 }
+            ],
+            "time_s": 2,
+            "yield": 2
+        },
+        {
+            "output": "redjade ginseng seed",
+            "materials": [
+                { "item": "redjade ginseng", "quantity": 1 }
+            ],
+            "time_s": 2,
+            "yield": 2
+        },
+        {
+            "output": "amber rice seed",
+            "materials": [
+                { "item": "amber rice", "quantity": 1 }
+            ],
+            "time_s": 2,
+            "yield": 2
+        }
+
+        
+    ],
+    "planting_unit": [
+      {
+            "output": "buckflower",
+            "mode": "default",
+            "materials": [
+                { "item": "buckflower seed", "quantity": 1 }
+            ],
+            "time_s": 2,
+            "yield": 1
+        },
+        {
+            "output": "citrome",
+            "mode": "default",
+            "materials": [
+                { "item": "citrome seed", "quantity": 1 }
+            ],
+            "time_s": 2,
+            "yield": 1
+        },
+        {
+            "output": "aketine",
+            "mode": "default",
+            "materials": [
+                { "item": "aketine seed", "quantity": 1 }
+            ],
+            "time_s": 2,
+            "yield": 1
+        },
+        {
+            "output": "jincao",
+            "mode": "fluid",
+            "materials": [
+                { "item": "jincao seed", "quantity": 1 }
+            ],
+            "time_s": 2,
+            "yield": 2
+        },
+        {
+            "output": "yanzhen",
+            "mode": "fluid",
+            "materials": [
+                { "item": "yanzhen seed", "quantity": 1 }
+            ],
+            "time_s": 2,
+            "yield": 2
+        },
+        {
+            "output": "sandleaf",
+            "mode": "default",
+            "materials": [
+                { "item": "sandleaf seed", "quantity": 1 }
+            ],
+            "time_s": 2,
+            "yield": 1
+        }
+    ],
+    "gearing_unit": [
+      {
+            "output": "amethyst component",
+            "materials": [
+                { "item": "amethyst fibre", "quantity": 5 },
+                { "item": "origocrust", "quantity": 5 }
+            ],
+            "time_s": 10,
+            "yield": 1
+        },
+        {
+            "output": "steel component",
+            "materials": [
+                { "item": "steel", "quantity": 10 },
+                { "item": "origocrust", "quantity": 10 }
+            ],
+            "time_s": 10,
+            "yield": 1
+        },
+        {
+            "output": "cryston component",
+            "materials": [
+                { "item": "cryston fibre", "quantity": 10 },
+                { "item": "packed origocrust", "quantity": 10 }
+            ],
+            "time_s": 10,
+            "yield": 1
+        },
+        {
+            "output": "xiranite component",
+            "materials": [
+                { "item": "xiranite", "quantity": 10 },
+                { "item": "packed origocrust", "quantity": 10 }
+            ],
+            "time_s": 10,
+            "yield": 1
+        }
+    ],
+    "filling_unit": [
+      {
+        "output": "canned citrome (C)",
+        "mode": "default",
+        "materials": [
+          { "item": "citrome powder", "quantity": 5 },
+          { "item": "amethyst bottle", "quantity": 5 }
+        ],
+        "time_s": 10,
+        "yield": 1
+      },
+      {
+        "output": "buckflower capsule (C)",
+        "mode": "default",
+        "materials": [
+          { "item": "buckflower powder", "quantity": 5 },
+          { "item": "amethyst bottle", "quantity": 5 }
+        ],
+        "time_s": 10,
+        "yield": 1
+      },
+      {
+        "output": "canned citrome (B)",
+        "mode": "default",
+        "materials": [
+          { "item": "citrome powder", "quantity": 10 },
+          { "item": "ferrium bottle", "quantity": 10 }
+        ],
+        "time_s": 10,
+        "yield": 1
+      },
+      {
+        "output": "buckflower capsule (B)",
+        "mode": "default",
+        "materials": [
+          { "item": "buckflower powder", "quantity": 10 },
+          { "item": "ferrium bottle", "quantity": 10 }
+        ],
+        "time_s": 10,
+        "yield": 1
+      },
+      {
+        "output": "canned citrome (A)",
+        "mode": "default",
+        "materials": [
+          { "item": "citrome powder", "quantity": 10 },
+          { "item": "steel bottle", "quantity": 10 }
+        ],
+        "time_s": 10,
+        "yield": 1
+      },
+      {
+        "output": "buckflower capsule (A)",
+        "mode": "default",
+        "materials": [
+          { "item": "buckflower powder", "quantity": 10 },
+          { "item": "steel bottle", "quantity": 10 }
+        ],
+        "time_s": 10,
+        "yield": 1
+      },
+      {
+        "output": "amethyst bottled water",
+        "mode": "fluid",
+        "liquid": "clean water",
+        "litres": 1,
+        "materials": [{ "item": "amethyst bottle", "quantity": 1 }],
+        "time_s": 2,
+        "yield": 1
+      },
+      {
+        "output": "ferrium bottled water",
+        "mode": "fluid",
+        "liquid": "clean water",
+        "litres": 1,
+        "materials": [{ "item": "ferrium bottle", "quantity": 1 }],
+        "time_s": 2,
+        "yield": 1
+      },
+      {
+        "output": "steel bottled water",
+        "mode": "fluid",
+        "liquid": "clean water",
+        "litres": 1,
+        "materials": [{ "item": "steel bottle", "quantity": 1 }],
+        "time_s": 2,
+        "yield": 1
+      },
+      {
+        "output": "cryston bottled water",
+        "mode": "fluid",
+        "liquid": "clean water",
+        "litres": 1,
+        "materials": [{ "item": "cryston bottle", "quantity": 1 }],
+        "time_s": 2,
+        "yield": 1
+      },
+      {
+        "output": "amethyst bottled jincao solution",
+        "mode": "fluid",
+        "liquid": "jincao solution",
+        "litres": 1,
+        "materials": [{ "item": "amethyst bottle", "quantity": 1 }],
+        "time_s": 2,
+        "yield": 1
+      },
+      {
+        "output": "ferrium bottled jincao solution",
+        "mode": "fluid",
+        "liquid": "jincao solution",
+        "litres": 1,
+        "materials": [{ "item": "ferrium bottle", "quantity": 1 }],
+        "time_s": 2,
+        "yield": 1
+      },
+      {
+        "output": "steel bottled jincao solution",
+        "mode": "fluid",
+        "liquid": "jincao solution",
+        "litres": 1,
+        "materials": [{ "item": "steel bottle", "quantity": 1 }],
+        "time_s": 2,
+        "yield": 1
+      },
+      {
+        "output": "cryston bottled jincao solution",
+        "mode": "fluid",
+        "liquid": "jincao solution",
+        "litres": 1,
+        "materials": [{ "item": "cryston bottle", "quantity": 1 }],
+        "time_s": 2,
+        "yield": 1
+      },
+      {
+        "output": "amethyst bottled yanzhen solution",
+        "mode": "fluid",
+        "liquid": "yanzhen solution",
+        "litres": 1,
+        "materials": [{ "item": "amethyst bottle", "quantity": 1 }],
+        "time_s": 2,
+        "yield": 1
+      },
+      {
+        "output": "ferrium bottled yanzhen solution",
+        "mode": "fluid",
+        "liquid": "yanzhen solution",
+        "litres": 1,
+        "materials": [{ "item": "ferrium bottle", "quantity": 1 }],
+        "time_s": 2,
+        "yield": 1
+      },
+      {
+        "output": "steel bottled yanzhen solution",
+        "mode": "fluid",
+        "liquid": "yanzhen solution",
+        "litres": 1,
+        "materials": [{ "item": "steel bottle", "quantity": 1 }],
+        "time_s": 2,
+        "yield": 1
+      },
+      {
+        "output": "cryston bottled yanzhen solution",
+        "mode": "fluid",
+        "liquid": "yanzhen solution",
+        "litres": 1,
+        "materials": [{ "item": "cryston bottle", "quantity": 1 }],
+        "time_s": 2,
+        "yield": 1
+      },
+      {
+        "output": "amethyst bottled liquid xiranite",
+        "mode": "fluid",
+        "liquid": "liquid xiranite",
+        "litres": 1,
+        "materials": [{ "item": "amethyst bottle", "quantity": 1 }],
+        "time_s": 2,
+        "yield": 1
+      },
+      {
+        "output": "ferrium bottled liquid xiranite",
+        "mode": "fluid",
+        "liquid": "liquid xiranite",
+        "litres": 1,
+        "materials": [{ "item": "ferrium bottle", "quantity": 1 }],
+        "time_s": 2,
+        "yield": 1
+      },
+      {
+        "output": "steel bottled liquid xiranite",
+        "mode": "fluid",
+        "liquid": "liquid xiranite",
+        "litres": 1,
+        "materials": [{ "item": "steel bottle", "quantity": 1 }],
+        "time_s": 2,
+        "yield": 1
+      },
+      {
+        "output": "cryston bottled liquid xiranite",
+        "mode": "fluid",
+        "liquid": "liquid xiranite",
+        "litres": 1,
+        "materials": [{ "item": "cryston bottle", "quantity": 1 }],
+        "time_s": 2,
+        "yield": 1
+      }
+    ],
+
+    "packaging_unit": [{
+            "output": "grenade",
+            "materials": [
+                { "item": "amethyst part", "quantity": 4 },
+                { "item": "aketine powder", "quantity": 1 }
+            ],
+            "time_s": 10,
+            "yield": 1
+        },
+        {
+            "output": "yanzhen syringe (C)",
+            "materials": [
+                { "item": "amethyst bottled yanzhen solution", "quantity": 5 },
+                { "item": "ferrium part", "quantity": 10 }
+            ],
+            "time_s": 10,
+            "yield": 1
+        },
+        {
+            "output": "jincao drink",
+            "materials": [
+                { "item": "amethyst bottled jincao solution", "quantity": 5 },
+                { "item": "ferrium part", "quantity": 10 }
+            ],
+            "time_s": 10,
+            "yield": 1
+        },
+        {
+            "output": "lc battery",
+            "materials": [
+                { "item": "originium powder", "quantity": 10 },
+                { "item": "amethyst part", "quantity": 5 }
+            ],
+            "time_s": 10,
+            "yield": 1
+        },
+        {
+            "output": "sc battery",
+            "materials": [
+                { "item": "originium powder", "quantity": 15 },
+                { "item": "ferrium part", "quantity": 10 }
+            ],
+            "time_s": 10,
+            "yield": 1
+        },
+        {
+            "output": "hc battery",
+            "materials": [
+                { "item": "dense originum powder", "quantity": 15 },
+                { "item": "steel part", "quantity": 10 }
+            ],
+            "time_s": 10,
+            "yield": 1
+        },
+        {
+            "output": "lc wuling battery",
+            "materials": [
+                { "item": "originium powder", "quantity": 15 },
+                { "item": "xiranite", "quantity": 5 }
+            ],
+            "time_s": 10,
+            "yield": 1
+        }
+      ],
+    "reactor_crucible": [
+      {
+        "output": "jincao solution",
+        "liquid": "clean water",
+        "litres": 1,
+        "materials": [
+          { "item": "jincao powder", "quantity": 1 }
+        ],
+        "time_s": 2,
+        "yield": 1
+      },
+      {
+        "output": "yanzhen solution",
+        "liquid": "clean water",
+        "litres": 1,
+        "materials": [
+          { "item": "yanzhen powder", "quantity": 1 }
+        ],
+        "time_s": 2,
+        "yield": 1
+      },
+      {
+        "output": "liquid xiranite",
+        "liquid": "clean water",
+        "litres": 1,
+        "materials": [
+          { "item": "xiranite", "quantity": 1 }
+        ],
+        "time_s": 2,
+        "yield": 1
+      }
+    ],
+    "grinding_unit": [
+      {
+        "output": "dense originium powder",
+        "materials": [
+            { "item": "originium powder", "quantity": 2 },
+            { "item": "sandleaf powder", "quantity": 1 } 
+        ],
+        "time_s": 2,
+        "yield": 1
+      },
+      {
+        "output": "dense ferrium powder",
+        "materials": [
+            { "item": "ferrium powder", "quantity": 2 },
+            { "item": "sandleaf powder", "quantity": 1 } 
+        ],
+        "time_s": 2,
+        "yield": 1
+      },
+      {
+        "output": "cryston powder",
+        "materials": [
+            { "item": "amethyst powder", "quantity": 2 },
+            { "item": "sandleaf powder", "quantity": 1 } 
+        ],
+        "time_s": 2,
+        "yield": 1
+      },
+      {
+        "output": "dense carbon powder",
+        "materials": [
+            { "item": "carbon powder", "quantity": 2 },
+            { "item": "sandleaf powder", "quantity": 1 } 
+        ],
+        "time_s": 2,
+        "yield": 1
+      },
+      {
+        "output": "dense origocrust powder",
+        "materials": [
+            { "item": "origocrust powder", "quantity": 2 },
+            { "item": "sandleaf powder", "quantity": 1 } 
+        ],
+        "time_s": 2,
+        "yield": 1
+      },
+      {
+        "output": "ground buckflower powder",
+        "materials": [
+            { "item": "buckflower powder", "quantity": 2 },
+            { "item": "sandleaf powder", "quantity": 1 } 
+        ],
+        "time_s": 2,
+        "yield": 1
+      },
+      {
+        "output": "ground citrome powder",
+        "materials": [
+            { "item": "citrome powder", "quantity": 2 },
+            { "item": "sandleaf powder", "quantity": 1 } 
+        ],
+        "time_s": 2,
+        "yield": 1
+      }
+    ],
+    "forge_of_the_sky": [
+      {
+        "output": "xiranite",
+        "materials": [
+            { "item": "clean water", "quantity": 1 },
+            { "item": "stabilized carbon", "quantity": 2 }
+        ],
+        "time_s": 2,
+        "yield": 1
+      },
+      {
+        "output": "fertilizer",
+        "note": "manual gathering required",
+        "materials": [
+            { "item": "clean water", "quantity": 1 },
+            { "item": "burdo-muck", "quantity": 1 }
+        ],
+        "time_s": 2,
+        "yield": 1
+      }
+    ],
+    "separating_unit": [
+      {
+        "output": ["amethyst bottle", "clean water"],
+        "materials": [{ "item": "amethyst bottled water", "quantity": 1 }],
+        "time_s": 10,
+        "yield": [
+          { "item": "amethyst bottle", "quantity": 1 },
+          { "item": "clean water", "quantity": "1 litre" }
+        ]
+      },
+      {
+        "output": ["ferrium bottle", "clean water"],
+        "materials": [{ "item": "ferrium bottled water", "quantity": 1 }],
+        "time_s": 10,
+        "yield": [
+          { "item": "ferrium bottle", "quantity": 1 },
+          { "item": "clean water", "quantity": "1 litre" }
+        ]
+      },
+      {
+        "output": ["steel bottle", "clean water"],
+        "materials": [{ "item": "steel bottled water", "quantity": 1 }],
+        "time_s": 10,
+        "yield": [
+          { "item": "steel bottle", "quantity": 1 },
+          { "item": "clean water", "quantity": "1 litre" }
+        ]
+      },
+      {
+        "output": ["cryston bottle", "clean water"],
+        "materials": [{ "item": "cryston bottled water", "quantity": 1 }],
+        "time_s": 10,
+        "yield": [
+          { "item": "cryston bottle", "quantity": 1 },
+          { "item": "clean water", "quantity": "1 litre" }
+        ]
+      },
+      {
+        "output": ["amethyst bottle", "liquid xiranite"],
+        "materials": [{ "item": "amethyst bottled liquid xiranite", "quantity": 1 }],
+        "time_s": 10,
+        "yield": [
+          { "item": "amethyst bottle", "quantity": 1 },
+          { "item": "liquid xiranite", "quantity": "1 litre" }
+        ]
+      },
+      {
+        "output": ["ferrium bottle", "liquid xiranite"],
+        "materials": [{ "item": "ferrium bottled liquid xiranite", "quantity": 1 }],
+        "time_s": 10,
+        "yield": [
+          { "item": "ferrium bottle", "quantity": 1 },
+          { "item": "liquid xiranite", "quantity": "1 litre" }
+        ]
+      },
+      {
+        "output": ["steel bottle", "liquid xiranite"],
+        "materials": [{ "item": "steel bottled liquid xiranite", "quantity": 1 }],
+        "time_s": 10,
+        "yield": [
+          { "item": "steel bottle", "quantity": 1 },
+          { "item": "liquid xiranite", "quantity": "1 litre" }
+        ]
+      },
+      {
+        "output": ["cryston bottle", "liquid xiranite"],
+        "materials": [{ "item": "cryston bottled liquid xiranite", "quantity": 1 }],
+        "time_s": 10,
+        "yield": [
+          { "item": "cryston bottle", "quantity": 1 },
+          { "item": "liquid xiranite", "quantity": "1 litre" }
+        ]
+      },
+      {
+        "output": ["amethyst bottle", "yanzhen solution"],
+        "materials": [{ "item": "amethyst bottled yanzhen solution", "quantity": 1 }],
+        "time_s": 10,
+        "yield": [
+          { "item": "amethyst bottle", "quantity": 1 },
+          { "item": "yanzhen solution", "quantity": "1 litre" }
+        ]
+      },
+      {
+        "output": ["ferrium bottle", "yanzhen solution"],
+        "materials": [{ "item": "ferrium bottled yanzhen solution", "quantity": 1 }],
+        "time_s": 10,
+        "yield": [
+          { "item": "ferrium bottle", "quantity": 1 },
+          { "item": "yanzhen solution", "quantity": "1 litre" }
+        ]
+      },
+      {
+        "output": ["steel bottle", "yanzhen solution"],
+        "materials": [{ "item": "steel bottled yanzhen solution", "quantity": 1 }],
+        "time_s": 10,
+        "yield": [
+          { "item": "steel bottle", "quantity": 1 },
+          { "item": "yanzhen solution", "quantity": "1 litre" }
+        ]
+      },
+      {
+        "output": ["cryston bottle", "yanzhen solution"],
+        "materials": [{ "item": "cryston bottled yanzhen solution", "quantity": 1 }],
+        "time_s": 10,
+        "yield": [
+          { "item": "cryston bottle", "quantity": 1 },
+          { "item": "yanzhen solution", "quantity": "1 litre" }
+        ]
+      },
+      {
+        "output": ["amethyst bottle", "jincao solution"],
+        "materials": [{ "item": "amethyst bottled jincao solution", "quantity": 1 }],
+        "time_s": 10,
+        "yield": [
+          { "item": "amethyst bottle", "quantity": 1 },
+          { "item": "jincao solution", "quantity": "1 litre" }
+        ]
+      },
+      {
+        "output": ["ferrium bottle", "jincao solution"],
+        "materials": [{ "item": "ferrium bottled jincao solution", "quantity": 1 }],
+        "time_s": 10,
+        "yield": [
+          { "item": "ferrium bottle", "quantity": 1 },
+          { "item": "jincao solution", "quantity": "1 litre" }
+        ]
+      },
+      {
+        "output": ["steel bottle", "jincao solution"],
+        "materials": [{ "item": "steel bottled jincao solution", "quantity": 1 }],
+        "time_s": 10,
+        "yield": [
+          { "item": "steel bottle", "quantity": 1 },
+          { "item": "jincao solution", "quantity": "1 litre" }
+        ]
+      },
+      {
+        "output": ["cryston bottle", "jincao solution"],
+        "materials": [{ "item": "cryston bottled jincao solution", "quantity": 1 }],
+        "time_s": 10,
+        "yield": [
+          { "item": "cryston bottle", "quantity": 1 },
+          { "item": "jincao solution", "quantity": "1 litre" }
+        ]
+      }
+    ]
+  },
+
+  "AIC_unit":[
+    {
+      "id":"VALL-001",
+      "type":"main AIC unit",
+      "size":{"area":{"length":70,"width":70},
+              "main_unit_size":{"length":9,"width":9}},
+      "core_production":"",
+      "aic_unit_port":{"input_port":14,"output_port":6},
+      "local_to":"valley IV"
+    },
+    {
+      "id":"VALL-002",
+      "type":"sub AIC unit",
+      "size":{"area":{"length":40,"width":40},
+              "main_unit_size":{"length":9,"width":9}},
+      "core_production":"",
+      "aic_unit_port":{"input_port":14,"output_port":6},
+      "local_to":"valley IV"
+    },
+    {
+      "id":"VALL-003",
+      "type":"sub AIC unit",
+      "size":{"area":{"length":40,"width":40},
+              "main_unit_size":{"length":9,"width":9}},
+      "core_production":"",
+      "aic_unit_port":{"input_port":14,"output_port":6},
+      "local_to":"valley IV"
+    },
+    {
+      "id":"VALL-004",
+      "type":"sub AIC unit",
+      "size":{"area":{"length":40,"width":40},
+              "main_unit_size":{"length":9,"width":9}},
+      "core_production":"",
+      "aic_unit_port":{"input_port":14,"output_port":6},
+      "local_to":"valley IV"
+    }
+  ],
+
+  "Logisctic":[
+    {"type":"transport belt",
+     "unit_list":[
+      {"name":"conveyor belt",
+        "flow_rate":"0.5/s",
+        "port":""},
+        
+      {"name":"converger belt",
+        "flow_rate":"0.5/s",
+        "port":{"input":3,"output":1}},
+      {"name":"splitter belt",
+        "flow_rate":"0.5/s",
+        "port":{"input":1,"output":3}},
+      {"name":"filter belt",
+        "flow_rate":"0.5/s",
+        "port":{"input":1,"output":1}},
+      {"name":"bridge_belt",
+        "flow_rate":"0.5/s",
+        "port":{"input":1,"output":1}}
+      
+     ]},
+    {"type":"transport pipe"}
+  ]
+}
